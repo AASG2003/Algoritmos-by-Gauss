@@ -32,7 +32,6 @@ int main() {
    	cin>>b>>c;
    b--;c--;
    	G[b].push_back(c);
-	G[c].push_back(d);
    }
    for(int i=0;i<N;i++){
    	if(C[i]==-1){
@@ -44,5 +43,9 @@ int main() {
    	cout<<i<<": ";
    	cout<<C[i]<<endl;
    }
+   if(esb)cout<<"YES"<<endl;
+   else cout<<"NO"<<endl;
+   
+      
 	return 0;
 }
